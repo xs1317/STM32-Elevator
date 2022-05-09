@@ -1,0 +1,633 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<WORKSPACE>
+ <FRAME activewindow="0">
+  <PLACEMENT>2c0000000200000003000000ffffffffffffffffffffffffffffffffca010000260100005a0900003c050000</PLACEMENT>
+  <WINDOW type="default" module="ISIS"/>
+  <WINDOW type="default" module="ARES"/>
+  <WINDOW type="default" module="PROJNOTES"/>
+ </FRAME>
+ <MODULE name="VSMDEBUG">
+  <PWI>
+   <POPUP w="800" x="350" flags="00000002" y="187" h="200" pid="0" iid="-1">
+    <PROPERTIES>
+     <ITEM name="Message Column Width">661</ITEM>
+     <ITEM name="ShowGrid">No</ITEM>
+     <ITEM name="Source Column Width">100</ITEM>
+     <ITEM name="Version">100</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="350" x="370" flags="00000032" y="207" h="200" pid="1" iid="-1">
+    <PROPERTIES>
+     <ITEM name="Address Column Width">82</ITEM>
+     <ITEM name="AutoResize">No</ITEM>
+     <ITEM name="Gridlines">Yes</ITEM>
+     <ITEM name="Name Column Width">82</ITEM>
+     <ITEM name="ShowAddresses">Yes</ITEM>
+     <ITEM name="ShowPreviousValues">No</ITEM>
+     <ITEM name="ShowTypes">No</ITEM>
+     <ITEM name="ShowWatchPoint">Yes</ITEM>
+     <ITEM name="TriggerMode">0</ITEM>
+     <ITEM name="Value Column Width">82</ITEM>
+     <ITEM name="Version">100</ITEM>
+     <ITEM name="Watch Expression Column Width">82</ITEM>
+     <ITEM name="nItems">0</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="390" flags="0000000a" y="227" h="32" pid="400" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">08000000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="410" flags="0000000a" y="247" h="32" pid="500" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">50020000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="430" flags="0000000a" y="267" h="32" pid="300" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40023800</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="450" flags="0000000a" y="287" h="32" pid="800" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40013C00</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="470" flags="0000000a" y="307" h="32" pid="1500" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40020000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="490" flags="0000000a" y="327" h="32" pid="1600" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40020400</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="510" flags="0000000a" y="347" h="32" pid="1700" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40020800</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="530" flags="0000000a" y="367" h="32" pid="1800" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40020C00</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="550" flags="0000000a" y="387" h="32" pid="1900" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40021000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="570" flags="0000000a" y="407" h="32" pid="2200" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40021C00</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="590" flags="0000000a" y="427" h="32" pid="4500" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40010000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="610" flags="0000000a" y="447" h="32" pid="2300" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40000000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="630" flags="0000000a" y="467" h="32" pid="2600" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40000C00</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="650" flags="0000000a" y="487" h="32" pid="2400" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40000400</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="670" flags="0000000a" y="507" h="32" pid="2500" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40000800</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="690" flags="0000000a" y="527" h="32" pid="2700" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40013000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="710" flags="0000000a" y="547" h="32" pid="2800" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40003800</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="730" flags="0000000a" y="567" h="32" pid="2900" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40003C00</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="750" flags="0000000a" y="587" h="32" pid="3000" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40013400</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="770" flags="0000000a" y="607" h="32" pid="3100" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40011000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="790" flags="0000000a" y="627" h="32" pid="3200" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40004400</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="810" flags="0000000a" y="647" h="32" pid="3600" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40011400</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="830" flags="0000000a" y="667" h="32" pid="3700" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40005400</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="850" flags="0000000a" y="687" h="32" pid="3800" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40005800</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="870" flags="0000000a" y="707" h="32" pid="3900" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40005C00</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="890" flags="0000000a" y="727" h="32" pid="4000" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">50000000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="910" flags="0000000a" y="747" h="32" pid="5200" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40007000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="930" flags="0000000a" y="767" h="32" pid="4100" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40012000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="950" flags="0000000a" y="787" h="32" pid="900" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40002800</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="970" flags="0000000a" y="807" h="32" pid="4200" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40014000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="990" flags="0000000a" y="827" h="32" pid="4300" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40014400</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="1010" flags="0000000a" y="847" h="32" pid="4400" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40014800</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="1030" flags="0000000a" y="867" h="32" pid="600" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">1FFF0000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="1050" flags="0000000a" y="887" h="32" pid="200" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E000E000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="1070" flags="0000000a" y="907" h="32" pid="1300" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40026000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="1090" flags="0000000a" y="927" h="32" pid="1400" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40026400</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="1110" flags="0000000a" y="947" h="32" pid="1100" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40003000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="1130" flags="0000000a" y="967" h="32" pid="1200" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40002C00</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="16" x="1150" flags="0000000a" y="987" h="26" pid="1000" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40023000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="1099" x="1170" flags="0000002a" y="630" h="663" pid="100" iid="1">
+    <PROPERTIES>
+     <ITEM name="Breakpoint 0">"TIM_ITConfig",800106C,0013,30EC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 1">"TIM_TimeBaseInit",80010D2,0065,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 10">"USART_GetITStatus",8001198,001F,EF3D,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 11">"SVC_Handler",8000B7C,0003,87AF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 12">"SYSCFG_EXTILineConfig",8000BB6,0039,F840,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 13">"PendSV_Handler",8000B18,0003,7C3D,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 14">"RCC_APB2PeriphClockCmd",8000B70,0017,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 15">"EXTI_Init",8000914,0093,384E,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 16">"GPIO_SetBits",80009BC,0001,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 17">"NVIC_Init",8000B00,0077,AB59,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 18">"NVIC_PriorityGroupConfig",8000B08,0007,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 19">"NMI_Handler",8000A88,0003,D011,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 2">"TIM3_Int_Init",8001018,005B,3AEE,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 20">"SysTick_CLKSourceConfig",8000CCE,0025,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 21">"__user_initial_stackheap",800024C,0007,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 22">"UsageFault_Handler",80011DA,0003,1B54,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 23">"_sys_exit",80011DC,0001,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 24">"TIM_TimeBaseInit",80010F0,0083,9008,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 25">"USART1_IRQHandler",8001140,004F,C377,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 26">"USART1_IRQHandler",8001168,0077,1565,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 27">"_sys_exit",80011E0,0005,9008,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 28">"delay_xms",800129A,0045,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 29">"TIM3_Int_Init",8001000,0043,88ED,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 3">"TIM_ClearITPendingBit",800101C,0003,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 30">"TIM3_Int_Init",800100C,004F,48D6,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 31">"TIM3_Int_Init",8001012,0055,9D99,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 32">"SystemInit",8000D3C,0067,9008,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 33">"TIM3_IRQHandler",8000D46,0009,D999,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 34">"TIM3_IRQHandler",8000D4A,000D,E4E5,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 35">"DebugMon_Handler",8000320,0003,9008,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 36">"EXTIX_Init",8000870,0073,3B7A,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 37">"HardFault_Handler",80009C4,0005,7796,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 38">"KEY_Init",8000A00,003B,89AD,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 39">"KEY_Init",8000A14,004F,809B,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 4">"EXTI_Init",800090C,008B,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 40">"__user_libspace",80002D8,0007,7796,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 41">"BEEP_Init",8000300,0027,B4D7,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 42">"BEEP_Init",8000312,0039,809B,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 43">"KEY_Init",8000A20,005B,7796,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 44">"LED_Init",8000A3E,001D,B069,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 45">"LED_Init",8000A78,0057,809B,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 46">"main",8001300,005F,63D4,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 47">"__user_initial_stackheap",800024E,0009,18D0,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 48">"__user_libspace",80002D7,0006,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 49">"BEEP_Init",80002FF,0026,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 5">"EXTIX_Init",8000874,0077,5B59,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 50">"EXTIX_Init",800086F,0072,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 51">"EXTIX_Init",8000873,0076,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 52">"EXTI_ClearITPendingBit",800087A,0005,18D0,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 53">"EXTI_Init",800090E,008D,18D0,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 54">"EXTI_Init",8000913,0092,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 55">"GPIO_SetBits",80009BE,0003,1B54,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 56">"HardFault_Handler",80009C3,0004,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 57">"KEY_Init",80009FF,003A,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 58">"LED_Init",8000A40,001F,D4D0,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 59">"LED_Init",8000A77,0056,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 6">"EXTI_ClearITPendingBit",8000878,0003,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 60">"NMI_Handler",8000A87,0002,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 61">"NVIC_Init",8000AFF,0076,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 62">"RCC_APB2PeriphClockCmd",8000B78,001F,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 63">"SVC_Handler",8000B7B,0002,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 64">"SYSCFG_EXTILineConfig",8000BB5,0038,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 65">"SysTick_CLKSourceConfig",8000CD0,0027,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 66">"SystemInit",8000D3B,0066,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 67">"TIM3_IRQHandler",8000D45,0008,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 68">"TIM3_Int_Init",8000FFF,0042,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 69">"TIM_ITConfig",800106B,0012,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 7">"USART_ReceiveData",80011D4,0007,98DF,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 70">"TIM_TimeBaseInit",80010D4,0067,18D0,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 71">"TIM_TimeBaseInit",80010EF,0082,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 72">"USART1_IRQHandler",800113F,004E,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 73">"USART_GetITStatus",800119A,0021,806A,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 74">"USART_ReceiveData",80011D3,0006,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 75">"USART_ReceiveData",80011D6,0009,1B54,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 76">"UsageFault_Handler",80011D9,0002,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 77">"_sys_exit",80011DE,0003,18D0,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 78">"_sys_exit",80011DF,0004,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 79">"delay_xms",800129C,0047,A191,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 8">"USART1_IRQHandler",8001178,0087,D011,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 80">"main",80012FF,005E,5CCC,0431,1
+</ITEM>
+     <ITEM name="Breakpoint 9">"USART_GetITStatus",8001182,0009,88ED,0431,1
+</ITEM>
+     <ITEM name="CaseSensitive">No</ITEM>
+     <ITEM name="DISPADDRS">Yes</ITEM>
+     <ITEM name="DISPLNUMS">No</ITEM>
+     <ITEM name="DISPOPCODES">No</ITEM>
+     <ITEM name="FIXUPBPTS">Yes</ITEM>
+     <ITEM name="WordsOnly">No</ITEM>
+     <ITEM name="nBreakpoints">0</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="300" x="1190" flags="0000000a" y="730" h="300" pid="101" iid="1">
+    <PROPERTIES>
+     <ITEM name="Address Column Width">93</ITEM>
+     <ITEM name="AutoResize">No</ITEM>
+     <ITEM name="Gridlines">Yes</ITEM>
+     <ITEM name="Name Column Width">93</ITEM>
+     <ITEM name="ShowAddresses">Yes</ITEM>
+     <ITEM name="ShowGlobals">Yes</ITEM>
+     <ITEM name="ShowPreviousValues">No</ITEM>
+     <ITEM name="ShowTypes">No</ITEM>
+     <ITEM name="ShowWatchPoint">No</ITEM>
+     <ITEM name="TriggerMode">0</ITEM>
+     <ITEM name="Value Column Width">93</ITEM>
+     <ITEM name="Version">100</ITEM>
+     <ITEM name="nItems">0</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="30" x="1210" flags="00000008" y="1017" h="13" pid="103" iid="1">
+    <PROPERTIES/>
+   </POPUP>
+   <POPUP w="320" x="657" flags="0000000b" y="805" h="240" pid="105" iid="1">
+    <PROPERTIES/>
+   </POPUP>
+   <POPUP w="22" x="1250" flags="00000008" y="1012" h="18" pid="3701" iid="1">
+    <PROPERTIES/>
+   </POPUP>
+   <POPUP w="22" x="1270" flags="00000008" y="1012" h="18" pid="3801" iid="1">
+    <PROPERTIES/>
+   </POPUP>
+   <POPUP w="22" x="1290" flags="00000008" y="1012" h="18" pid="3901" iid="1">
+    <PROPERTIES/>
+   </POPUP>
+  </PWI>
+ </MODULE>
+</WORKSPACE>
